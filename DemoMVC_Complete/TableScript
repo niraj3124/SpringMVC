@@ -1,0 +1,9 @@
+
+
+CREATE TABLE Login414(username VARCHAR2(20) PRIMARY KEY,password VARCHAR2(20));
+DROP TABLE user414;
+CREATE TABLE user414(username VARCHAR2(20),
+gender VARCHAR2(10),
+email  VARCHAR2(25),
+skills VARCHAR2(50),
+city VARCHAR2(20));
